@@ -21,7 +21,7 @@ app.get('/clientes', (req, res) => {
     res.json(clientes);
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 app.listen(port, () => {
     console.log(`Servidor Express corriendo en el puerto ${port}`);
 });
